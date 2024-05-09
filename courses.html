@@ -4,13 +4,14 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>courses</title>
+   <title>Branch</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/roadmap.css">
 
 </head>
 <body>
@@ -19,7 +20,7 @@
    
    <section class="flex">
 
-      <a href="home.html" class="logo">SnapStudy</a>
+      <a href="index.html" class="logo">SnapStudy</a>
 
       <form action="search.html" method="post" class="search-form">
          <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
@@ -34,7 +35,7 @@
       </div>
 
       <div class="profile">
-         <img src="images/pic-1.jpg" class="image" alt="">
+         <img src="images/logo.png" class="image" alt="">
          <h3 class="name">Abhishek/h3>
          <p class="role">student</p>
          <a href="profile.html" class="btn">view profile</a>
@@ -55,200 +56,57 @@
    </div>
 
    <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Abhishek</h3>
-      <p class="role">student</p>
-      <a href="profile.html" class="btn">view profile</a>
+      <img src="images/logo.png" class="image" alt="">
+      <h3 class="name">SnapStudy</h3>
+      <p class="role">EduTech</p>
+      <!-- <a href="profile.html" class="btn">view profile</a> -->
    </div>
 
    <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Manage Course</span></a>
+      <a href="courses.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Manage Branch</span></a>
+      <a href="about.html"><i class="fa fa-book" aria-hidden="true"></i><span>Manage Subject</span></a>
+      <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i><span>Manage Question Paper</span></a>
+      <a href="roadmaps.html"><i class="fa fa-road" aria-hidden="true"></i><span>Roadmap</span></a>
+      <a href="contact.html"><i class="fa fa-headphones" aria-hidden="true"></i></i><span>Contact us</span></a>
    </nav>
-
 </div>
 
 <section class="courses">
 
-   <h1 class="heading">our courses</h1>
+   <div class="menu-bar">
+      <ul>
+        <!-- <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li> -->
+        <li><a href="#">Course <i class="fas fa-caret-down"></i></a>
 
-   <div class="box-container">
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-2.jpg" alt="">
-            <div class="info">
-               <h3>Aryan</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-1.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete HTML tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-3.jpg" alt="">
-            <div class="info">
-               <h3>Ayush</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-2.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete CSS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-4.jpg" alt="">
-            <div class="info">
-               <h3>Himanshu</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-3.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete JS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-5.jpg" alt="">
-            <div class="info">
-               <h3>Durgesh</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-4.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete Boostrap tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-6.jpg" alt="">
-            <div class="info">
-               <h3>Abby</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-5.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete JQuery tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-7.jpg" alt="">
-            <div class="info">
-               <h3>Abhi</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-6.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete SASS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-8.jpg" alt="">
-            <div class="info">
-               <h3>Ranjan</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-7.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete PHP tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-9.jpg" alt="">
-            <div class="info">
-               <h3>Aditya</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-8.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete MySQL tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <!-- <img src="images/pic-1.jpg" alt="">
-            <div class="info">
-               <h3>Aadi</h3>
-               <span>21-10-2022</span>
-            </div> -->
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-9.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete react tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-   </div>
-
+            <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a href="#">B.Tech<i class="fas fa-caret-right"></i></a>
+                    
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="#">C.S.E</a></li>
+                        <li><a href="#">E.C.E</a></li>
+                        <li><a href="#">M.L</a></li>
+                        <li><a href="#">Civil</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </li>
+    </div>
 </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer">
-
-   <!-- &copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved! -->
+<!-- <footer class="footer">
    Empowering Minds, Igniting Curiosity: Your Gateway to Educational Excellence...
 
 
-</footer>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-   
+</footer> -->
+<script src="js/script.js"></script>   
 </body>
 </html>

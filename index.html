@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/roadmap.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="index.html" class="logo">SnapStudy</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Abhishek</h3>
+         <p class="role">student</p>
+         <!-- <a href="profile.html" class="btn">view profile</a> -->
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/logo.png" class="image" alt="">
+      <h3 class="name">SnapStudy</h3>
+      <p class="role">EduTech</p>
+      <!-- <a href="profile.html" class="btn">view profile</a> -->
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Manage Course</span></a>
+      <a href="courses.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Manage Branch</span></a>
+      <a href="about.html"><i class="fa fa-book" aria-hidden="true"></i><span>Manage Subject</span></a>
+      <a href="about.html"><i class="fa fa-question" aria-hidden="true"></i><span>Manage Question Paper</span></a>
+      <a href="roadmaps.html"><i class="fa fa-road" aria-hidden="true"></i><span>Roadmap</span></a>
+      <a href="contact.html"><i class="fa fa-headphones" aria-hidden="true"></i></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+
+
+<section class="courses">
+
+   <div class="menu-bar">
+      <ul>
+        <li><a href="#">Course <i class="fas fa-caret-down"></i></a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a href="#">B.Tech<i class="fas fa-caret-right"></i></a>
+                    
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li>
+                           <a href="#">C.S.E<i class="fas fa-caret-right"></i></a>
+                           <div class="dropdown-menu-2">
+                              <ul>
+                                <li><a href="#">semester 1<i class="fas fa-caret-right"></i></a>
+                              <div class="dropdown-menu-3">
+                                 <ul>
+                                    <li><a href="#">Physics</a></li>
+                                    <li><a href="#">P.P.S</a></li>
+                                    <li><a href="#">A.I</a></li>
+                                    <li><a href="#">Maths-I <sup>st</sup></a></li>
+                                    <li><a href="#">Electrical</a></li>
+                                  </ul>
+                              </div>
+                              </li>
+                              <li><a href="#">semester 2<i class="fas fa-caret-right"></i></a>
+                                 <div class="dropdown-menu-3">
+                                    <ul>
+                                       <li><a href="#">Electronics</a></li>
+                                       <li><a href="#">Mechanical</a></li>
+                                       <li><a href="#">Chemistry</a></li>
+                                       <li><a href="#">Emerging Technology</a></li>
+                                       <li><a href="#">Maths-II <sup>nd</sup></a></li>
+                                     </ul>
+                                 </div>
+                                 </li>                                
+                                 <li><a href="#">semester 3<i class="fas fa-caret-right"></i></a>
+                                    <div class="dropdown-menu-3">
+                                       <ul>
+                                          <li><a href="#">C.O.A</a></li>
+                                          <li><a href="#">D.S.T.L</a></li>
+                                          <li><a href="#">D.E</a></li>
+                                          <li><a href="#">C.S.S</a></li>
+                                          <li><a href="#">U.H.V</a></li>
+                                        </ul>
+                                    </div>
+                                    </li>
+                                    <li><a href="#">semester 4<i class="fas fa-caret-right"></i></a>
+                                       <div class="dropdown-menu-3">
+                                          <ul>
+                                             <li><a href="#">O.S</a></li>
+                                             <li><a href="#">T.A.F.L</a></li>
+                                             <li><a href="#">Data Structure</a></li>
+                                             <li><a href="#">Maths-IV <sup>th</sup></a></li>
+                                             <!-- <li><a href="#"></a></li> -->
+                                           </ul>
+                                       </div>
+                                       </li>
+                                <li><a href="#">semester 5</a></li>
+                                <li><a href="#">semester 6</a></li>
+                                <li><a href="#">semester 7</a></li>
+                                <li><a href="#">semester 8</a></li>
+
+                              </ul>
+                            </div>
+                        
+                           <!-- <a href="#">semester<i class="fas fa-caret-right"></i></a> -->
+                    
+                     </li>
+                     <li>
+                     <a href="#">E.C.E<i class="fas fa-caret-right"></i></a>
+                     <div class="dropdown-menu-2">
+                        <ul>
+                          <li><a href="#">semester 1</a></li>
+                          <li><a href="#">semester 2</a></li>
+                          <li><a href="#">semester 3</a></li>
+                          <li><a href="#">semester 4</a></li>
+                          <li><a href="#">semester 5</a></li>
+                          <li><a href="#">semester 6</a></li>
+                          <li><a href="#">semester 7</a></li>
+                          <li><a href="#">semester 8</a></li>
+
+                        </ul>
+                      </div>
+                     </li>
+                     <li>
+                        <a href="#">Mechanical<i class="fas fa-caret-right"></i></a>
+                        <div class="dropdown-menu-2">
+                           <ul>
+                             <li><a href="#">semester 1</a></li>
+                             <li><a href="#">semester 2</a></li>
+                             <li><a href="#">semester 3</a></li>
+                             <li><a href="#">semester 4</a></li>
+                             <li><a href="#">semester 5</a></li>
+                             <li><a href="#">semester 6</a></li>
+                             <li><a href="#">semester 7</a></li>
+                             <li><a href="#">semester 8</a></li>
+   
+                           </ul>
+                         </div>
+                        </li>
+                        <li>
+                           <a href="#">Civil<i class="fas fa-caret-right"></i></a>
+                           <div class="dropdown-menu-2">
+                              <ul>
+                                <li><a href="#">semester 1</a></li>
+                                <li><a href="#">semester 2</a></li>
+                                <li><a href="#">semester 3</a></li>
+                                <li><a href="#">semester 4</a></li>
+                                <li><a href="#">semester 5</a></li>
+                                <li><a href="#">semester 6</a></li>
+                                <li><a href="#">semester 7</a></li>
+                                <li><a href="#">semester 8</a></li>
+      
+                              </ul>
+                            </div>
+                           </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </li>
+    </div>
+</section>
+
+
+
+
+<!-- <footer class="footer">
+   Empowering Minds, Igniting Curiosity: Your Gateway to Educational Excellence...
+
+
+</footer> -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
