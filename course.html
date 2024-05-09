@@ -4,13 +4,15 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>login</title>
+   <title>Course</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/roadmap.css">
+   <link rel="stylesheet" href="css/course.css">
 
 </head>
 <body>
@@ -37,7 +39,7 @@
          <img src="images/pic-1.jpg" class="image" alt="">
          <h3 class="name">Abhishek</h3>
          <p class="role">student</p>
-         <a href="profile.html" class="btn">view profile</a>
+         <!-- <a href="profile.html" class="btn">view profile</a> -->
          <div class="flex-btn">
             <a href="login.html" class="option-btn">login</a>
             <a href="register.html" class="option-btn">register</a>
@@ -62,49 +64,50 @@
    </div>
 
    <nav class="navbar">
-      <a href="course.html"><i class="fa fa-home" aria-hidden="true"></i><span>Manage Course</span></a>
-      <a href="branch.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Manage Branch</span></a>
-      <a href="subject.html"><i class="fa fa-book" aria-hidden="true"></i><span>Manage Subject</span></a>
-      <a href="questionpaper.html"><i class="fa fa-question" aria-hidden="true"></i><span>Manage Question Paper</span></a>
-      <a href="roadmaps.html"><i class="fa fa-road" aria-hidden="true"></i><span>Roadmap</span></a>
-      <a href="contact.html"><i class="fa fa-headphones" aria-hidden="true"></i></i><span>Contact us</span></a>
-   </nav>
+    <a href="course.html"><i class="fa fa-home" aria-hidden="true"></i><span>Manage Course</span></a>
+    <a href="branch.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Manage Branch</span></a>
+    <a href="subject.html"><i class="fa fa-book" aria-hidden="true"></i><span>Manage Subject</span></a>
+    <a href="questionpaper.html"><i class="fa fa-question" aria-hidden="true"></i><span>Manage Question Paper</span></a>
+    <a href="roadmaps.html"><i class="fa fa-road" aria-hidden="true"></i><span>Roadmap</span></a>
+    <a href="contact.html"><i class="fa fa-headphones" aria-hidden="true"></i></i><span>Contact us</span></a>
+ </nav>
+
 </div>
 
-<section class="form-container">
 
-   <form action="" method="post" enctype="multipart/form-data">
-      <h3>login now</h3>
-      <p>your email <span>*</span></p>
-      <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
-      <p>your password <span>*</span></p>
-      <input type="password" name="pass" placeholder="enter your password" required maxlength="20" class="box">
-      <input type="submit" value="login new" name="submit" class="btn">
-   </form>
 
+<section class="courses">
+    <div class="container">
+        <h1>Enter Course Details</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="course_id">Course ID:</label>
+                <input type="text" id="course_id" name="course_id">
+            </div>
+
+            <div class="form-group">
+                <label for="course_full_name">Course Full Name:</label>
+                <input type="text" id="course_full_name" name="course_full_name">
+            </div>
+
+            <div class="form-group">
+                <label for="course_nick_name">Course Nickname:</label>
+                <input type="text" id="course_nick_name" name="course_nick_name">
+            </div>
+
+            <input type="submit" value="Save" class="btn-save">
+        </form>
+    </div>
 </section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer">
-
-   <!-- &copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved! -->
+<!-- <footer class="footer">
    Empowering Minds, Igniting Curiosity: Your Gateway to Educational Excellence...
 
 
-</footer>
+</footer> -->
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
